@@ -1,0 +1,111 @@
+*{
+    font-family: 'Candara';
+    font-size: 1.5rem;
+}
+
+.texto_navbar {
+    font-size:  1rem;
+}
+
+body {
+    margin: 0;
+    background-color: #ffffff;
+}
+
+p{
+    color: black;
+}
+
+/* HEADER */
+header {
+    display: grid;
+
+}
+
+#div_texto_header{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+}
+
+#texto_header {
+    color: rgb(0, 0, 0);
+    font-size: 4rem;
+}
+
+#div_img_header{
+    grid-row: 1/4;
+    grid-column: 1/4;
+    width: 100%;
+}
+
+#img_header {
+    width: 100%;
+}
+
+#logo {
+    max-height: 100%;
+}
+
+.body{
+    padding: 0 1.5rem;
+}
+
+
+#div_titulo_body {
+    margin: 3rem 0;
+}
+
+#titulo_body{
+    text-align: center;
+}
+
+#titulo_body span {
+    border-radius: 11px 11px 11px 11px;
+    border: 1px solid #000000;
+    padding: .7rem .7rem;
+    font-size: 1.5rem;
+
+}
+
+.imagem_section {
+    width: 50%;
+    height: auto; 
+    margin: 2.4rem 0;
+}
+
+.titulo_section {
+    font-size: 1.8rem;
+    color: black;
+}
+
+.texto_section {
+    font-size: 1rem;
+    text-align: justify;
+    vertical-align: top;
+    color: black;
+}
+
+.btn {
+    font-size: 1rem;
+    text-transform: none;
+}
+
+.gambiarra {
+    font-size: 1px;
+    margin: 0 0;
+    padding: 0 0;
+}
+.liste-posts{
+    float: left;
+}
+
+.liste-posts img{
+    float:left;
+    margin-right: 1rem;
+}
+
+.segundo-post img{
+    float: right;
+    margin-left: 1rem;
+}
